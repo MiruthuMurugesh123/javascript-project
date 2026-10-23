@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Miruthu Bhashini's personal portfolio">
+
+    <title>Miruthu Bhashini | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header class="header">
+    <a href="#home" class="logo">MB <span>Miruthu Bhashini</span></a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">☰</button>
+
+    <nav id="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        
+    </nav>
+
+    <button id="themeBtn" class="theme-btn" aria-label="Toggle theme">☾</button>
+</header>
+
+<main>
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <p class="small-title">COMPUTER SCIENCE STUDENT</p>
+
+            <h1>Hi, I'm <span>Miruthu Bhashini.</span><br>
+                I build ideas with code.
+            </h1>
+
+            <p class="description">
+                I'm a B.Sc. Computer Science student interested in
+                Java programming, web development, and creating
+                useful digital experiences.
+            </p>
+
+            <div class="buttons">
+                <a href="#projects" class="btn">View My Projects ↗</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+
+            <div class="stats">
+                <div><strong>03</strong><p>Projects</p></div>
+                <div><strong>07</strong><p>Certificates</p></div>
+                <div><strong>2028</strong><p>Graduation</p></div>
+            </div>
+        </div>
+
+        <div class="hero-image profile-wrapper">
+            <div class="circle-bg"></div>
+            <img src="C:\Users\KGCAS\Pictures\miruthu-portfolio.png" alt="Miruthu" class="profile-pic">
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <p class="small-title">A LITTLE ABOUT ME</p>
+        <h2>About <span>Me</span></h2>
+
+        <div class="about-box">
+            <h3>Computer Science Student</h3>
+
+            <p>
+                I am pursuing B.Sc. Computer Science at KG College
+                of Arts and Science, Coimbatore. I enjoy programming,
+                solving problems, and developing useful applications.
+                I am particularly interested in Java and web development.
+            </p>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <!-- SKILLS SECTION - GROUPED VERSION -->
+<section id="skills" class="skills-section">
+  <div class="container">
+    <span class="small-heading">WHAT I WORK WITH</span>
+    <h2 class="section-title">My <span>Skills</span></h2>
+    
+    <div class="skills-grid" style="grid-template-columns: 1fr 1fr;">
+      <!-- Group 1 -->
+      <div class="skill-card">
+        <h3>💻 Programming</h3>
+        <div style="margin: 12px 0; display:flex; gap:8px; flex-wrap:wrap;">
+          <span style="background:#fdf0ea; color:#a65a3a; padding:6px 12px; border-radius:20px; font-size:13px;">Java</span>
+          <span style="background:#fdf0ea; color:#a65a3a; padding:6px 12px; border-radius:20px; font-size:13px;">Python</span>
+        </div>
+        <p>Core Java, OOP concepts, Fundamentals and logic</p>
+      </div>
+
+      <!-- Group 2 -->
+      <div class="skill-card">
+        <h3>🌐 Web Development</h3>
+        <div style="margin: 12px 0; display:flex; gap:8px; flex-wrap:wrap;">
+          <span style="background:#fdf0ea; color:#a65a3a; padding:6px 12px; border-radius:20px; font-size:13px;">HTML</span>
+          <span style="background:#fdf0ea; color:#a65a3a; padding:6px 12px; border-radius:20px; font-size:13px;">CSS</span>
+          <span style="background:#fdf0ea; color:#a65a3a; padding:6px 12px; border-radius:20px; font-size:13px;">JavaScript</span>
+        </div>
+        <p>creating web page</p>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- PROJECTS -->
+   <section id="projects">
+  <h2 class="section-title">My Projects</h2>
+  <div class="projects-container">
+
+    <div class="project-card java">
+      <span class="tag">JAVA PROJECT</span>
+      <h3>Courier Parcel Tracking</h3>
+      <p>To save parcel details and check delivery status using Java.</p>
+      <p class="small"><b>Tools:</b> Java, Scanner, File Handling</p>
+      <p class="small"><b>Learned:</b> How to store data & check status</p>
+      <a href="https://github.com/MiruthuMurugesh123/java.program" target="_blank" class="btn">View Code →</a>
+    </div>
+
+    <div class="project-card c">
+      <span class="tag">DSA PROJECT</span>
+      <h3>Food Delivery App</h3>
+      <p>A C project to display food menu and calculate total bill.</p>
+      <p class="small"><b>Tools:</b> C, loops, if-else</p>
+      <p class="small"><b>Learned:</b> Billing logic using conditions</p>
+      <a href="https://github.com/MiruthuMurugesh123/dsa-project" target="_blank" class="btn">View Code →</a>
+    </div>
+
+    <div class="project-card dsa">
+      <span class="tag">C PROJECT</span>
+      <h3>DSA Attendance System</h3>
+      <p>To save and view student attendance using DSA concepts.</p>
+      <p class="small"><b>Tools:</b> C, Arrays, Data Structures</p>
+      <p class="small"><b>Learned:</b> Managing records with DSA</p>
+      <a href="https://github.com/MiruthuMurugesh123/C-project" target="_blank" class="btn">View Code →</a>
+    </div>
+
+  </div>
+</section>
+    
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+        <div>
+            <p class="small-title">CONTACT</p>
+            <h2>My <span>Profiles</span></h2>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/miruthu-bhashini-m-3457563a8"
+                   target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+
+                <a href="https://github.com/MiruthuMurugesh123"
+                   target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+        </div>
+
+        <form id="contactForm">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" required>
+
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Your email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Your message" required></textarea>
+
+            <button type="submit" class="btn">Check Message ↗</button>
+
+            <p id="formStatus" role="status" aria-live="polite"></p>
+            <small>This demo form does not send messages.</small>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>© <span id="year"></span> Miruthu Bhashini M.</p>
+    <a href="#home">Back to Top ↑</a>
+</footer>
+
+</body>
+</html>
